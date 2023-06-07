@@ -1,0 +1,7 @@
+go 1.20
+
+use (
+	./day01/base
+	./day01/hello
+	./day01/main
+)
