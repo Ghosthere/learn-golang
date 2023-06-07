@@ -12,7 +12,7 @@ func main() {
 	fmt.Println(b.City())
 	s := b.SHANGHAI
 	fmt.Println(s)
-	fmt.Printf("math.Sqrt(2): %v\n", math.Sqrt(2))
+	fmt.Printf("math.Sqrt(2): %v\n", b.Sqrt(2))
 }
 
 func main2() {
