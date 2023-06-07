@@ -3,11 +3,22 @@ package main
 import (
 	"fmt"
 	"math"
+	"runtime"
 
 	b "learn.org/base"
 )
 
 func main() {
+	fmt.Print("Go runs on ")
+	switch os := runtime.GOOS; os {
+	case "linux":
+		fmt.Println("Linux")
+	case "windows":
+		fmt.Println("windows")
+	}
+}
+
+func main1() {
 	// fmt.Println("Beijing = ", BEIJING)
 	fmt.Println(b.City())
 	s := b.SHANGHAI
