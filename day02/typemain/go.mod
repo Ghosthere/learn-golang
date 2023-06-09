@@ -1,4 +1,4 @@
-module learn.org/main
+module learn.org/typemain
 
 go 1.20
 
