@@ -3,5 +3,7 @@ go 1.20
 use (
 	./day01/base
 	./day01/hello
-	./day01/main
+	// ./day01/main
+	./day02/main
+	./day02/type
 )
